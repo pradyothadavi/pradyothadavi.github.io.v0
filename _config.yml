@@ -1,0 +1,26 @@
+collections:
+  scala:
+    output: true
+  notes:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "scala"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
