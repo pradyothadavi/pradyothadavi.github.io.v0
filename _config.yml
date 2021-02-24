@@ -3,11 +3,20 @@ collections:
     output: true
   notes:
     output: true
+  kubernetes:
+    output: true
+  docker:
+    output: true
 
 defaults:
   - scope:
       path: ""
       type: "scala"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "kubernetes"
     values:
       layout: "post"
   - scope:
