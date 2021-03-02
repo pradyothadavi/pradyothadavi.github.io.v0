@@ -42,12 +42,21 @@ events.
     <tr>
       <th scope="row">4</th>
       <td>kube-controller-manager</td>
-      <td><li>selects node to run Pods</li><li>watches for newly created Pods</li></td>
+      <td>
+        <li>It runs different controller processes</li>
+        <li>Node controller</li>
+        <li>Job controller</li>
+        <li>Endpoints controller</li>
+        <li>Service Account & Token controllers</li>
+       </td>
     </tr>
     <tr>
       <th scope="row">5</th>
       <td>cloud-controller-manager</td>
-      <td><li>selects node to run Pods</li><li>watches for newly created Pods</li></td>
+      <td>
+        <li>It contains cloud provider specific control logic</li>
+        <li>Applications like minikube which are used for local setup will not have this component</li>
+       </td>
     </tr>
   </tbody>
 </table>
@@ -68,22 +77,26 @@ events.
     <tr>
       <th scope="row">1</th>
       <td>kubelet</td>
-      <td>Exposes the Kubernetes API</td>
+      <td>Ensures that containers are running in a pod, on each node of the cluster</td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>kube-proxy</td>
-      <td>Consistent and highly-available key value store for storing all cluster data</td>
+      <td>It maintains the network rules on the nodes of the cluster</td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>container-runtime</td>
-      <td><li>selects node to run Pods</li><li>watches for newly created Pods</li></td>
+      <td>software application responsible for running the containers</td>
     </tr>
     <tr>
       <th scope="row">4</th>
       <td>Addons</td>
-      <td><li>DNS</li><li>Web UI</li><li>Container Resource Monitoring</li></td>
+      <td>
+        <li>DNS</li>
+        <li>Web UI</li>
+        <li>Container Resource Monitoring</li>
+       </td>
     </tr>
   </tbody>
 </table>
