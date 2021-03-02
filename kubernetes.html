@@ -16,8 +16,8 @@ title: Kubernetes
     {% assign i = 0 %}
     {% for post in site.kubernetes %}
     <tr>
-        <th scope="row">{{ i | plus: 1}}</th>
-        <td><h6><a href="{{ post.url }}">{{ post.name }}</a></h6></td>
+        <th scope="row"><h3>{{ i | plus: 1}}</h3></th>
+        <td><h3><a href="{{ post.url }}">{{ post.name }}</a></h3></td>
     </tr>
     {% assign i = i | plus: 1 %}
     {% endfor %}
