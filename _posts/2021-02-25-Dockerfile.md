@@ -1,6 +1,7 @@
 ---
 name: Dockerfile
 layout: post
+title: Dockerfile cheatsheet
 ---
 
 #### What is Dockerfile?

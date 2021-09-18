@@ -1,6 +1,7 @@
 ---
 name: Kubernetes Components
 layout: post
+title: Components of Kubernetes Cluster
 ---
 
 There are two components of a Kubernetes Cluster
@@ -8,12 +9,11 @@ There are two components of a Kubernetes Cluster
 * Node Components
 
 ![k8 cluster](https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg)
-*Reference: https://kubernetes.io/docs/concepts/overview/components/*
-
+*Reference: [Overview Components](https://kubernetes.io/docs/concepts/overview/components/)*
 
 ### Control Plane Components
-The control plane components make global decisions about the cluster, as well as detecting and responding to cluster 
-events. 
+
+The control plane components make global decisions about the cluster, as well as detecting and responding to cluster events.
 
 <table class="table table-dark">
   <thead>
@@ -61,8 +61,6 @@ events.
   </tbody>
 </table>
 
-
-
 ### Node Components
 
 <table class="table table-dark">
@@ -100,5 +98,3 @@ events.
     </tr>
   </tbody>
 </table>
-
-
