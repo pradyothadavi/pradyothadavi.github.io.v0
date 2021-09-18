@@ -1,6 +1,7 @@
 ---
 name: Local Setup
 layout: post
+title: How to install minikube on MacOS
 ---
 
 ### MacOS

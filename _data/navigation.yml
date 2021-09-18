@@ -1,16 +1,4 @@
 - name: Me
   link: /
-- name: Docker
-  link: /docker.html
-- name: Kubernetes
-  link: /kubernetes.html
-- name: Unix
-  link: /unix.html
-# - name: Blog
-#   link: /blog.html
-#- name: Scala
-#  link: /scala.html
-# - name: HBase
-#   link: /scala.html
-# - name: Notes
-#   link: /scala.html
+- name: Blog
+  link: /blog.html

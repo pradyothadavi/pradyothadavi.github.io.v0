@@ -1,6 +1,7 @@
 ---
 name: Workloads
 layout: post
+title: K8 workload cheatsheet
 ---
 
 A workload is an application running on Kubernetes. The basic deployable unit on K8s is Pod. The workload runs inside a 
