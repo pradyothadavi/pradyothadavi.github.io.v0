@@ -4,6 +4,8 @@
   link: /docker.html
 - name: Kubernetes
   link: /kubernetes.html
+- name: Unix
+  link: /unix.html
 # - name: Blog
 #   link: /blog.html
 #- name: Scala

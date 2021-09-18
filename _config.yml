@@ -9,6 +9,8 @@ collections:
     output: true
   helm:
     output: true
+  unix:
+    output: true
 
 defaults:
   - scope:
