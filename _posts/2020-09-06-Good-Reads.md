@@ -1,5 +1,5 @@
 ---
-name: awk
+name: Good Reads
 layout: post
 title: links to good reading materials
 ---
@@ -9,3 +9,5 @@ title: links to good reading materials
 [ACID Transactions in Distributed Databases](https://blog.yugabyte.com/6-signs-you-might-be-misunderstanding-acid-transactions-in-distributed-databases/){:target="_blank"}
 
 [kubectl book](https://kubectl.docs.kubernetes.io/){:target="_blank"}
+
+[nginx playground](https://www.digitalocean.com/community/tools/nginx){:target="_blank"}
